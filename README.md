@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+💬 Gemini Chatbot UI – AI Chat Interface with Gemini 2.5 Flash
+This is a modern chatbot UI built using Next.js, TypeScript, and Tailwind CSS, integrating the Gemini 2.5 Flash API for real-time AI-powered conversations.
 
-## Getting Started
+It features a clean dark theme, responsive design, and a built-in PDF export option to save chat sessions.
 
-First, run the development server:
+🛠️ Tech Stack
+Next.js 15
 
-```bash
+React 19
+
+TypeScript
+
+Tailwind CSS v4
+
+Gemini 2.5 Flash API
+
+Radix UI, Lucide Icons
+
+PostCSS, tw-animate-css
+
+⚙️ Features
+✅ Gemini 2.5 Flash API Integration
+✅ Dark Theme UI
+✅ Responsive chat layout
+✅ PDF download support
+✅ Real-time streaming responses
+✅ Modern TypeScript codebase
+✅ Easy to customize and extend
+
+🚀 Getting Started
+bash
+Copy
+Edit
+npm install
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Edit the UI in app/page.tsx. The page updates automatically with hot reload.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 Live Demo
+👉 gemini-chatbot-ui.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📄 PDF Support
+Easily export your chat as a PDF using the Download button. Great for sharing conversations or keeping notes.
 
-## Learn More
+🧠 Learn More
+Next.js Documentation
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind CSS Documentation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gemini API Reference
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📦 Deployment
+Deploy instantly using Vercel.
 
-## Deploy on Vercel
+🤝 Contributing
+Have ideas to improve this project? Open an issue or submit a pull request for new features, design improvements, or integrations.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔖 Hashtags
+Use these when sharing your project online:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+less
+Copy
+Edit
+#AI #NextJS #GeminiAPI #React #TailwindCSS #TypeScript #WebDev #OpenSource #ChatbotUI #DarkTheme #PDFExp
