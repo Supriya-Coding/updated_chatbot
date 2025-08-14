@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
     }
 
     const geminiRes = await fetch(
-  "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=AIzaSyCRop0yjzjh2esMnZZw8rQerpDWghZgjd0",
+  "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=YOUR_GEMINI_API",
   {
     method: "POST",
     headers: {
@@ -42,3 +42,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ reply: "❌ Failed to reach Gemini." });
   }
 }
+
